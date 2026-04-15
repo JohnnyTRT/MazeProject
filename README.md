@@ -20,7 +20,7 @@ conan profile detect --force
 
 Step 3: Install packages on device
 ```bash
-conan install . --output-folder=build --build=missing
+conan install . -s --build_type=Release --build=missing
 ```
 
 Step 4: Set Cmake Preset
